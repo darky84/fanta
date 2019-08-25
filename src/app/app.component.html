@@ -1,0 +1,13 @@
+<div class="card">
+	<div class="card-header">
+		<h1 class="card-title"><img class="scudetto" src="https://sites.google.com/site/ilcalcioitaliano/_/rsrc/1410364246087/classifica/Atalanta-Logo.jpg?height=200&width=200" alt="Atalanta">
+    Atalanta</h1>
+  </div>
+    <div class="card-body">
+
+      <app-role-filter (filterChange)="updatedRoleFilter($event)"></app-role-filter>
+  
+  <app-players-table [players]="players"></app-players-table>
+    
+  </div>
+</div>
