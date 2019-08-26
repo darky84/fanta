@@ -34,3 +34,7 @@ export const allRoles = Object.keys(Role)
     .filter((x) => isNaN(x))
     .map((x) => Role[x]);
 
+export interface FantaTeam { 
+  name: string;
+  money: number;
+}
